@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI NFT Generator
+
+Generate image with OpenAI DALL-E and mint as NFTs using thirdweb Engine.
 
 ## Getting Started
 
-First, run the development server:
+To use the AI NFT Generator app, you'll need to clone this repository, install dependencies, set up environment variables and contract addresses, and deploy the application. Below are the steps to follow:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Deploy Smart Contracts
+[ERC-721 NFT Collection](https://thirdweb.com/thirdweb.eth/TokenERC721)
+
+
+### Cloning the Repository
+
+To get started, clone the repository to your local machine:
+```
+git clone https://github.com/thirdweb-example/youtube-ai-nft-generator
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installing Dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This application requires several dependencies to function, including thirdweb Connect SDK. Install them using npm or yarn:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm install
+```
+or
+```
+yarn install
+```
+
+
+### Video Tutorial
+
+For a detailed setup and deployment guide, watch our video tutorial on YouTube:
+
+[How to Build an AI NFT Generator - OpenAI DALL-E and Engine](https://youtu.be/3OqSMxyABOs)
+
+### Setting Environment Variables
+
+Set the following variables in the `.env.example` file. You will need an OpenAI api key.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about thirdweb and Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [thirdweb docs Documentation](https://portal.thirdweb.com) - 
+- [thirdweb dashboard](https://thirdweb.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Join our Discord!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
